@@ -48,7 +48,7 @@
 		});
 	};
 
-	// Owl Carousel
+	// Owl Carousel   data-section
 	var carouselTestimony = function() {
 
 		var owl = $(".owl-carousel");
@@ -156,7 +156,7 @@
 
 	};
 
-	// Click outside of offcanvass
+	// Click outside of offcanvass  products
 	var mobileMenuOutsideClick = function() {
 		$(document).click(function (e) {
 	    var container = $("#fh5co-offcanvass, .js-fh5co-nav-toggle");
