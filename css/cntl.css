@@ -3,8 +3,9 @@ body {
 }
 .cntl {
 	position: relative;
-	width: 100%;
+	width: 80%;
 	overflow: hidden;
+	margin:0 auto;
 }
 .cntl-center {
 	left:0;
@@ -12,6 +13,7 @@ body {
     margin-left:auto;
     margin-right:auto;
 }
+
 
 
 /*垂直条*/
@@ -25,7 +27,6 @@ body {
 }
 .cntl-bar-fill {
 	background: #333;
-	/*background-color: #009ABB;*//*时间轴颜色*/
 	position: absolute;
 	left:0;
 	right:0;
@@ -39,7 +40,7 @@ body {
 	position: relative;
 	width:100%;
 	min-height: 200px;
-	margin-bottom: 50px;
+	/*margin-bottom: 50px;*/
 }
 .cntl-state::after {
 	display:block;
@@ -67,17 +68,19 @@ body {
 
 
 
-/*字体背景边框*/
+/*字体背景边框 注释内容*/
+/*图片-添加内容*/
 .cntl-content {
-	width: 40%;
-	padding: 2%;
-	background: #fff;
+	width: 48%;
+	/*padding: 2%;*/
+/*	background: #fff;
 	border-radius: 8px;
-	border-bottom: solid 3px #999;
+	border-bottom: solid 3px #999;*/
 	float:right;
 	opacity:0;
 	position:relative;
 	margin-right:-40%;
+	margin-top:-1%;
 }
 
 
@@ -99,11 +102,11 @@ body {
 	width:100%;
 }
 */
-.cntl-content h4 {
+/*.cntl-content h4 {
 	font-size:20px;
 	font-weight: normal;
 	margin-bottom: 10px;
-}
+}*/
 
 
 /*
@@ -136,11 +139,20 @@ body {
 
 @media (max-width: 600px) {
 
+	.aa{
+		width: 0;
+	    height: 0;
+	    border-left: 15px solid transparent;
+	    border-right: 15px solid transparent;
+	    border-top: 15px solid #222;
+	}
+
 	.cntl-bar {
 		/*left:auto;
 		right: 6.8%;*/
 		display: none;
 	}
+	
 
 	.cntl-content {
 		width:90%;
